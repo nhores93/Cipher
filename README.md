@@ -6,5 +6,5 @@ values are used to create Bot and User objects. The data is printed out in a nea
 toString method. The password for each account is checked for strength. It must be 8 digits long, contain an 
 uppercase letter, lowercase letter, and a symbol. A regular expression is used to check that 
 the criteria is met. The password is then encrypted by shifting up through the alphabet given by the
-salt value that is provided in the test file.
+salt number value that is provided in the test file.
 
