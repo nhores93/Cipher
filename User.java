@@ -17,9 +17,12 @@ public class User extends Account {
 	/*
 	 * Parameterized constructor. Takes in the password and salt value, the username,
 	 * the full name, and the department code.
-	 * Sets the instance fields equal to the value for the parameter.
+	 * Sets the instance fields equal to the value of the parameter.
 	 * @param The password
 	 * @param The salt
+	 * @param The username
+	 * @param The full name
+	 * @param The department code
 	 * @return Nothing
 	 * */
 	public User(String plainTextPassword, int salt, String userName, String fullName, int deptCode) {
@@ -34,7 +37,7 @@ public class User extends Account {
 	/*
 	 * Returns the user's username.
 	 * @param None
-	 * @return Nothing
+	 * @return The username
 	 * */
 	public String getUserName() {
 		return this.userName;
@@ -43,7 +46,7 @@ public class User extends Account {
 	/*
 	 * Returns the user's full name.
 	 * @param None
-	 * @return Nothing
+	 * @return The full name
 	 * */
 	public String getFullName() {
 		return this.fullName;
