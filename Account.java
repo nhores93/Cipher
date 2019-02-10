@@ -23,7 +23,7 @@ public class Account {
 	
 	/*
 	 * Parameterized constructor. Takes in the password and salt value.
-	 * Sets the instance fields equal to the value for the parameter.
+	 * Sets the instance fields equal to the value of the parameter.
 	 * @param The password
 	 * @param The salt
 	 * @return Nothing
@@ -109,7 +109,7 @@ public class Account {
 	}
 	
 	/*
-	 * This method sets the unique account ID Which will always be itself
+	 * This method sets the unique account ID which will always be itself
 	 * incremented by one. 
 	 * @param The account ID
 	 * @return Nothing
