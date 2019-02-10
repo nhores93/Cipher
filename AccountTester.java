@@ -23,7 +23,7 @@ public class AccountTester {
 	public static void main(String[] args) {
 	
 		String fileName = "data.csv"; //Providing the file name
-		File file = new File(fileName); //Creating a file object
+		File file = new File(fileName); //Creating a file object and initializing with file name
 		int salt; //Declaring the salt variable once 
 		
 		try {
@@ -32,7 +32,7 @@ public class AccountTester {
 			/*
 			 * While the file has content continue reading line by line. After consuming a line
 			 * Place the values in a string array using the comma as a the delimiter. We know ahead 
-			 * of time that the file is comma delimited. If the line starts with 'u' parse the the 
+			 * of time that the file is comma delimited. If the line starts with a 'u' parse the the 
 			 * department code and salt integer values and create a new User initialized with the array values. 
 			 * Print all values via toString method for Account and User classes. If the line starts with a 'b'
 			 * parse the salt value and initialize a new Bot with the array values. Print all values via toString
