@@ -16,10 +16,13 @@ public class Bot extends Account {
 	
 	/*
 	 * Parameterized constructor. Takes in the password and salt value, the user agent,
-	 * the category, and the createdBy.
-	 * Sets the instance fields equal to the value for the parameter.
+	 * the category, and the username or handle variables.
+	 * Sets the instance fields equal to the value of the parameter.
 	 * @param The password
 	 * @param The salt
+	 * @param The user agent
+	 * @param The category
+	 * @param The username or handle
 	 * @return Nothing
 	 * */
 	public Bot(String plainTextPassword, int salt, String userAgent, String category, String createdBy) {
@@ -81,7 +84,7 @@ public class Bot extends Account {
 
 	/*
 	 * Sets the user string representing the user creator name or user handle.
-	 * @param The object reference variable representing the creator name or user handle.
+	 * @param The creator name or user handle.
 	 * @return Nothing
 	 * */
 	public void setCreatedBy(String createdBy) {
